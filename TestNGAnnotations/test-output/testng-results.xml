@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="12" passed="12" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-07-10T08:27:23 IST" name="Suite2" finished-at="2023-07-10T08:27:23 IST" duration-ms="157">
+    <groups>
+      <group name="amazon">
+        <method signature="TestngAnnotations.searchproduct()[pri:0, instance:testng.TestngAnnotations@1c6804cd]" name="searchproduct" class="testng.TestngAnnotations"/>
+      </group> <!-- amazon -->
+      <group name="app opening">
+        <method signature="NewTest.opentheapp()[pri:0, instance:testng1.NewTest@77a98a6a]" name="opentheapp" class="testng1.NewTest"/>
+        <method signature="TestngAnnotations.openapplication()[pri:-1, instance:testng.TestngAnnotations@1c6804cd]" name="openapplication" class="testng.TestngAnnotations"/>
+      </group> <!-- app opening -->
+    </groups>
+    <test started-at="2023-07-10T08:27:23 IST" name="Test" finished-at="2023-07-10T08:27:23 IST" duration-ms="157">
+      <class name="testng1.NewTest">
+        <test-method signature="billpayment()[pri:0, instance:testng1.NewTest@77a98a6a]" started-at="2023-07-10T08:27:23 IST" name="billpayment" finished-at="2023-07-10T08:27:23 IST" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- billpayment -->
+        <test-method signature="collectfood()[pri:0, instance:testng1.NewTest@77a98a6a]" started-at="2023-07-10T08:27:23 IST" name="collectfood" finished-at="2023-07-10T08:27:23 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- collectfood -->
+        <test-method signature="location()[pri:0, instance:testng1.NewTest@77a98a6a]" started-at="2023-07-10T08:27:23 IST" name="location" finished-at="2023-07-10T08:27:23 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- location -->
+        <test-method signature="opentheapp()[pri:0, instance:testng1.NewTest@77a98a6a]" started-at="2023-07-10T08:27:23 IST" name="opentheapp" finished-at="2023-07-10T08:27:23 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- opentheapp -->
+        <test-method signature="placeorder()[pri:0, instance:testng1.NewTest@77a98a6a]" started-at="2023-07-10T08:27:23 IST" name="placeorder" finished-at="2023-07-10T08:27:23 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- placeorder -->
+        <test-method signature="restaurantselection()[pri:0, instance:testng1.NewTest@77a98a6a]" started-at="2023-07-10T08:27:23 IST" name="restaurantselection" finished-at="2023-07-10T08:27:23 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- restaurantselection -->
+      </class> <!-- testng1.NewTest -->
+      <class name="testng.TestngAnnotations">
+        <test-method signature="openapplication()[pri:-1, instance:testng.TestngAnnotations@1c6804cd]" started-at="2023-07-10T08:27:23 IST" name="openapplication" finished-at="2023-07-10T08:27:23 IST" duration-ms="8" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openapplication -->
+        <test-method signature="searchproduct()[pri:0, instance:testng.TestngAnnotations@1c6804cd]" started-at="2023-07-10T08:27:23 IST" name="searchproduct" finished-at="2023-07-10T08:27:23 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchproduct -->
+        <test-method signature="addtocart()[pri:1, instance:testng.TestngAnnotations@1c6804cd]" started-at="2023-07-10T08:27:23 IST" name="addtocart" finished-at="2023-07-10T08:27:23 IST" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addtocart -->
+        <test-method signature="checkout()[pri:2, instance:testng.TestngAnnotations@1c6804cd]" started-at="2023-07-10T08:27:23 IST" name="checkout" finished-at="2023-07-10T08:27:23 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkout -->
+        <test-method signature="login()[pri:0, instance:testng.TestngAnnotations@1c6804cd]" started-at="2023-07-10T08:27:23 IST" name="login" finished-at="2023-07-10T08:27:23 IST" depends-on-methods="checkout()" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="billpayment()[pri:0, instance:testng.TestngAnnotations@1c6804cd]" started-at="2023-07-10T08:27:23 IST" name="billpayment" finished-at="2023-07-10T08:27:23 IST" depends-on-methods="login()" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- billpayment -->
+      </class> <!-- testng.TestngAnnotations -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite2 -->
+</testng-results>
